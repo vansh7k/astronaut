@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+   background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png); 
+   width: 100vw;
+   height: 100vh;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+   font-family: 'Poppins', sans-serif;
+}
+
+#Astro1{
+    width: 500px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    animation: floating 4s infinite;
+}
+@keyframes floating{
+    0%{
+        transform: translateY(0px);
+
+    }
+    50% {
+        transform: translateY(30px);
+    }
+}
+#Astro2{
+    width: 370px;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    animation: floating 5s infinite ;
+}
+@-o-keyframes floating{
+
+}
+form{
+background-color: white;
+width: 320px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+padding: 20px 70px;
+gap: 20px;
+position: absolute;
+top: 20%;
+right: 5%;
+}
+.form-section{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+  width: 300px;
+
+}
+
+input[type="Number "], input[type="email"],select{
+    width: 300px;
+    height: 30px;
+}
+
+h2{
+ font-size: 30px;
+ margin-bottom: 10px;
+ text-align: center;
+
+}
+
+#b1{
+    background-color: tomato;
+    border: none;
+    width: 170px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+}
+#submit:hover {
+    cursor: pointer;
+}
+
+ 
